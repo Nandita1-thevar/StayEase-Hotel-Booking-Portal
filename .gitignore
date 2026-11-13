@@ -1,0 +1,25 @@
+# Java / Maven
+backend/target/
+*.class
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db
